@@ -22,9 +22,4 @@ resource "aws_dynamodb_table" "dynamo-table_imp" {
     }
 
     timeouts {}
-
-    ttl {
-        enabled = false
-    }
-
 }
